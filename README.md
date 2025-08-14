@@ -45,8 +45,7 @@ Kyoto -> Jeddah
 
 ### Implementation
 
-### You are required to implement the solution using Adjacency List, which is an array list that stores a linked list.
-
+**You are required to implement the solution using an Adjacency List, which is an array list that stores a linked list.**
 1. Create the `City` class.
    * Create an attribute `name` of type `String`.
    * Implement a constructor to initialize the `name`.
