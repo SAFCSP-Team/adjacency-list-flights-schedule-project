@@ -19,7 +19,7 @@ class Main {
         flightSchedule.addCity(new City("Tokyo"));
         flightSchedule.addCity(new City("Boston"));
         flightSchedule.addCity(new City("Kyoto"));
-        flightSchedule.addCity(new City("Jeddah"));
+        flightSchedule.(new City("Jeddah"));
 
         flightSchedule.addFlight(0, 1);
         flightSchedule.addFlight(0, 2);
@@ -55,7 +55,7 @@ Kyoto -> Jeddah
        * Create an attribute `flights` of type `ArrayList<LinkedList<City>>;`, then initialize it with `new ArrayList<>();`
    - **Methods:**
        * Create a method `addCity` that adds a city to the `flights` list.
-       * Create a method `addFlight` which takes two parameters (**src**, and **dst**) of type integer
+       * Create a method `addFlight` which takes two parameters (**src**, and **dst**) of type integer.
        * Get the list of **vertices** at index **src**, get the **vertex** at index **dst**, and add the **vertex** to the **list**.
        * Create a method `displayFlightSchedule` which prints out the `flights`.
     
@@ -72,7 +72,7 @@ Kyoto -> Jeddah
 - [ ] The code should run successfully.
 - [ ] Completely define the `City` class.
 - [ ] Completely define the `FlightSchedule` class.
-- [ ] Write all required functions correctly `addCity()` `addFlight()`, and `displayFlightSchedule()`.
+- [ ] Write all required functions correctly `addCity()`, `addFlight()`, and `displayFlightSchedule()`.
 - [ ] The output should match the **test case**.
 - [ ] Use the **Graph data structure** to solve the problem.
 
